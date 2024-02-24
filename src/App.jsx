@@ -7,8 +7,13 @@ import LoginSignUp from './pages/login/LoginSignUp'
 import SignUp from './pages/signup/SignUp'
 
 const App = () => {
+
+  
+
   return (
     <>
+
+
       <Navbars />
       <BrowserRouter>
         <Routes>

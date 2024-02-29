@@ -17,7 +17,7 @@ const Navbars = () => {
               title="Menü"
               menuVariant="dark"
             >
-              <NavDropdown.Item href="#action/3.1">Kategoriler</NavDropdown.Item>
+              <NavDropdown.Item href="/Categories">Kategoriler</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Yazarlar</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Popüler</NavDropdown.Item>
               <NavDropdown.Divider />

@@ -10,6 +10,7 @@ const BookList = ({ books }) => {
           <Card.Body>
             <Card.Title>{book.name}</Card.Title>
             <Card.Text>{book.price}</Card.Text>
+            <Card.Text>{book.quantity}</Card.Text>
             {/* Diğer özellikleri de ekle */}
           </Card.Body>
         </Card>

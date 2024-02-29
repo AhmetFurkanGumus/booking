@@ -4,7 +4,7 @@ import BookCarousel from '../components/BookCarousel';
 import BookList from '../components/BookList';
 
 const Home = () => {
-  const url = 'http://localhost:5555/';
+  const url = 'http://localhost:5555/books';
   const [books, setBooks] = useState([]);
 
   useEffect(() => {
@@ -13,7 +13,7 @@ const Home = () => {
 
   const getBooks = async () => {
     try {
-      const response = await axios.get(`${url}books`);
+      const response = await axios.get(`${url}/getAllbooks`);
       setBooks(response.data);
     } catch (error) {
       console.error('Error fetching books:', error);

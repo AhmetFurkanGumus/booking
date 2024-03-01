@@ -18,7 +18,7 @@ const Navbars = () => {
               menuVariant="dark"
             >
               <NavDropdown.Item href="/Categories">Kategoriler</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Yazarlar</NavDropdown.Item>
+              <NavDropdown.Item href="/AllBooks">Tüm Kitaplar</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Popüler</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">Kitap Öneri</NavDropdown.Item>
